@@ -14,7 +14,7 @@ module.exports = {
   siteMetadata: {
     title: `Francis Mark's Porfolio`,
     description: `Senior computer engineering student driven by strong interest in the fields of data science and engineering.`,
-    siteUrl: `https://www.petecastle.github.io`,
+    siteUrl: `https://petecastle.github.io`,
     image: '/og_image.png',
     twitter: 'petecastle_pro',
   },
