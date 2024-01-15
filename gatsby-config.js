@@ -6,6 +6,10 @@ const config = require('./src/config');
 
 
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
+ 
   siteMetadata: {
     title: `PeteCastle's Website`,
     description: `Website description (add in the future)`,
@@ -14,7 +18,7 @@ module.exports = {
     twitter: 'petecastle_pro',
   },
   plugins: [
-    "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet",
+    "gatsby-plugin-image","gatsby-plugin-mdx","gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

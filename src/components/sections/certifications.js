@@ -328,7 +328,7 @@ const Certifications = () => {
           {certifications &&
             certifications.map((obj,i) => {
               
-              const imageNode = images.allFile.edges.find(edge => edge.node.base == obj.file);
+              const imageNode = images.allFile.edges.find(edge => edge.node.base === obj.file);
               const image = getImage(imageNode.node.childImageSharp);
             
               return (

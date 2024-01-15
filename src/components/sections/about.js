@@ -136,11 +136,11 @@ const About = () => {
             <p>
             The year was 2022 when a random taught came to my mind, {' '}
             <i>"How could businesses make meaningful decisions when their customers generate a lot of data?"</i>.  
-            A simple Google search lead me to this <a href="https://www.ted.com/talks/josh_jones_creating_insights_from_the_data_around_us" target='_blank'>TedTalk</a>, where data science entered my life.  My curiosity has led me to delve deeper into this field, later on shifting on a developer-leaning field of data engineering.  Since then, I've been focused on improving my technical and soft skills by participating in <a href="#jobs">volunteer organizations</a>, and obtaining <a href="#certifications">certifications</a>.
+            A simple Google search lead me to this <a href="https://www.ted.com/talks/josh_jones_creating_insights_from_the_data_around_us" target='_blank' rel="noreferrer">TedTalk</a>, where data science entered my life.  My curiosity has led me to delve deeper into this field, later on shifting on a developer-leaning field of data engineering.  Since then, I've been focused on improving my technical and soft skills by participating in <a href="#jobs">volunteer organizations</a>, and obtaining <a href="#certifications">certifications</a>.
             </p>
 
             <p>
-            Fast-forward to today, I've had the privilege to be a data science lead for a <a href="https://gdsc.community.dev/pamantasan-ng-lungsod-ng-maynila/" target='_blank'>student-led developer organization</a> where I provide study jams and <a href="https://www.facebook.com/gdsc.haribon/posts/pfbid0ke7zkntq7tz8uovDy1Tf171E78AA9ytTLPAEMit5Kp9pUR6BSEPaYbkCsgkTzP35l" >scholarships</a> to like-minded individuals in my university.
+            Fast-forward to today, I've had the privilege to be a data science lead for a <a href="https://gdsc.community.dev/pamantasan-ng-lungsod-ng-maynila/" target='_blank' rel="noreferrer">student-led developer organization</a> where I provide study jams and <a href="https://www.facebook.com/gdsc.haribon/posts/pfbid0ke7zkntq7tz8uovDy1Tf171E78AA9ytTLPAEMit5Kp9pUR6BSEPaYbkCsgkTzP35l" >scholarships</a> to like-minded individuals in my university.
             </p>
 
             <p>

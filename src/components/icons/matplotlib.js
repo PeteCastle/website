@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LogoMatplotlib = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" stroke="#777" fill-opacity=".8">
+  <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" stroke="#777" fillOpacity=".8">
   <path fill="#FFF" d="m63,1a63,63 0 1,0 2,0zm0,14a49,49 0 1,0 2,0zm0,14a35,35 0 1,0
   2,0zm0,14a21,21 0 1,0 2,0zm0,14a7,7 0 1,0 2,0zm64,7H1m108-45-90,90m90,0-90-90m45-18v126"/>
   <path fill="#F60" d="m50,8-20,10 68,92 10-10L64,64z"/>

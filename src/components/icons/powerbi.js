@@ -22,12 +22,12 @@ const LogoPowerbi = () => (
             <stop stop-color="#F3CD32" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="PBI-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="PBI-Logo" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="Group" transform="translate(77.500000, 0.000000)">
             <rect id="Rectangle" fill="url(#linearGradient-1)" x="256" y="0" width="219" height="630" rx="26"></rect>
             <g id="Combined-Shape">
-                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fillOpacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" fillRule="evenodd" xlink:href="#path-3"></use>
             </g>
             <path d="M219,604 L219,630 L193,630 L26,630 C11.6405965,630 1.75851975e-15,618.359403 0,604 L0,341 C-1.75851975e-15,326.640597 11.6405965,315 26,315 L193,315 C207.359403,315 219,326.640597 219,341 L219,604 Z" id="Combined-Shape" fill="url(#linearGradient-5)"></path>
         </g>

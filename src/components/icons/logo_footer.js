@@ -7,7 +7,7 @@ const IconLogo = () => (
     <defs>
         <g />
     </defs>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(2.314171, 92.280799)">
             <g>
                 <path
@@ -15,7 +15,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(58.436201, 92.280799)">
             <g>
                 <path
@@ -23,7 +23,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(114.660275, 92.280799)">
             <g>
                 <path
@@ -31,7 +31,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(168.843529, 92.280799)">
             <g>
                 <path
@@ -39,7 +39,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(225.067603, 92.280799)">
             <g>
                 <path
@@ -47,7 +47,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(280.883503, 92.280799)">
             <g>
                 <path
@@ -55,7 +55,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(337.31164, 92.280799)">
             <g>
                 <path
@@ -63,7 +63,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(393.637734, 92.280799)">
             <g>
                 <path
@@ -71,7 +71,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(447.820988, 92.280799)">
             <g>
                 <path
@@ -79,7 +79,7 @@ const IconLogo = () => (
             </g>
         </g>
     </g>
-    <g fill="currentColor" fill-opacity="1">
+    <g fill="currentColor" fillOpacity="1">
         <g transform="translate(503.432802, 92.280799)">
             <g>
                 <path

@@ -218,27 +218,7 @@ const StyledTabPanel = styled.div`
 
 
 const Skills = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/content/jobs/" } }
-        sort: {frontmatter: {date: DESC}}
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title
-              company
-              location
-              range
-              url
-            }
-            html
-          }
-        }
-      }
-    }
-  `);
+
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);

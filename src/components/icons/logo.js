@@ -6,9 +6,9 @@ const IconLogo = () => (
         <defs>
             <g />
         </defs>
-        <rect x="-45" width="540" stroke="currentColor" strokeWidth="5" y="-22.5" height="270" fill-opacity="1" />
+        <rect x="-45" width="540" stroke="currentColor" strokeWidth="5" y="-22.5" height="270" fillOpacity="1" />
    
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(105.017654, 108.634806)">
                 <g>
                     <path
@@ -16,7 +16,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(167.201996, 108.634806)">
                 <g>
                     <path
@@ -24,7 +24,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(229.499395, 108.634806)">
                 <g>
                     <path
@@ -32,7 +32,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(289.535545, 108.634806)">
                 <g>
                     <path
@@ -40,7 +40,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(43.060625, 198.634803)">
                 <g>
                     <path
@@ -48,7 +48,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(104.905776, 198.634803)">
                 <g>
                     <path
@@ -56,7 +56,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(167.429299, 198.634803)">
                 <g>
                     <path
@@ -64,7 +64,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(229.839765, 198.634803)">
                 <g>
                     <path
@@ -72,7 +72,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(289.875915, 198.634803)">
                 <g>
                     <path
@@ -80,7 +80,7 @@ const IconLogo = () => (
                 </g>
             </g>
         </g>
-        <g fill="currentColor" fill-opacity="1">
+        <g fill="currentColor" fillOpacity="1">
             <g transform="translate(351.494954, 198.634803)">
                 <g>
                     <path
@@ -91,7 +91,7 @@ const IconLogo = () => (
         <path stroke-linecap="butt" transform="matrix(0.75, 0, 0, 0.75, -0.000000000000021316, 0.00001)" fill="none"
             stroke-linejoin="miter"
             d="M 0.000000000000028422 -0.0000133333 L 600.000063 -0.0000133333 L 600.000063 300.000018 L 0.000000000000028422 300.000018 Z M 0.000000000000028422 -0.0000133333 "
-            stroke="currentColor" stroke-width="20" stroke-opacity="1" stroke-miterlimit="4" />
+            stroke="currentColor" strokeWidth="20" stroke-opacity="1" stroke-miterlimit="4" />
     </svg>
 );
 
