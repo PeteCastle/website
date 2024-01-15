@@ -12,9 +12,9 @@ module.exports = {
 
  
   siteMetadata: {
-    title: `PeteCastle's Website`,
-    description: `Website description (add in the future)`,
-    siteUrl: `https://www.petecastle.dev`,
+    title: `Francis Mark's Porfolio`,
+    description: `Senior computer engineering student driven by strong interest in the fields of data science and engineering.`,
+    siteUrl: `https://www.petecastle.github.io`,
     image: '/og_image.png',
     twitter: 'petecastle_pro',
   },

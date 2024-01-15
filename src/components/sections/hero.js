@@ -108,7 +108,7 @@ const Hero = () => {
   const five = (
     <a
         className="email-link"
-        href="Francis Mark Cayco - Resume V1.5.pdf"
+        href="Francis Mark Cayco - Resume V1.6.pdf"
         target="_blank"
         rel="noreferrer">
         Download my resume

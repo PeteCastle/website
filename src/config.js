@@ -93,10 +93,10 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/francismarkk/?hl=en',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/petecastle_pro',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/petecastle_pro',
+    // },
     
     
  
