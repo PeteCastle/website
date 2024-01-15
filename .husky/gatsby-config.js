@@ -14,7 +14,7 @@ module.exports = {
   siteMetadata: {
     title: `PeteCastle's Website`,
     description: `Website description (add in the future)`,
-    siteUrl: `https://www.petecastle.dev`,
+    siteUrl: `https://petecastle.github.io/`,
     image: '/og_image.png',
     twitter: 'petecastle_pro',
   },
