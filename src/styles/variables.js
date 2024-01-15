@@ -8,9 +8,9 @@ const variables = css`
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    
+    
+    
     --white: #e6f1ff;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
@@ -20,6 +20,16 @@ const variables = css`
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+
+
+    --lightest-slate: #fffcf2;
+    --light-slate: #f5ebe0;
+    --slate: #ccc5b9;
+    --orange: #eb5e28;
+    --lightest-grey: #8b8c89;
+    --light-grey: #403d39;
+    --grey: #252422;
+    --dark-grey: #131515;
 
     --fz-xxs: 12px;
     --fz-xs: 13px;
@@ -35,7 +45,7 @@ const variables = css`
     --nav-scroll-height: 70px;
 
     --tab-height: 42px;
-    --tab-width: 120px;
+    --tab-width: 260px;
 
     --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
     --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);

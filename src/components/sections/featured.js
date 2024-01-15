@@ -117,14 +117,14 @@ const StyledProject = styled.li`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
 
     .project-tag {
-      background-color: var(--green);
-      color: var(--dark-navy);
+      background-color: var(--orange);
+      color: var(--dark-grey);
       padding-left: 2px;
       padding-right: 2px;
       text-transform: uppercase;
@@ -169,7 +169,7 @@ const StyledProject = styled.li`
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--light-grey);
     color: var(--light-slate);
     font-size: var(--fz-lg);
 
@@ -268,7 +268,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--orange);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -295,7 +295,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--dark-navy);
+        background-color: var(--dark-grey);
         mix-blend-mode: screen;
       }
     }

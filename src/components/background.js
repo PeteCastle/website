@@ -1,5 +1,7 @@
-import React from 'react';
+import React from 'react'
 import PropTypes from 'prop-types';
+
+
 import styled from 'styled-components';
 import { socialMedia } from '@config';
 import { Side } from '@components';
@@ -43,22 +45,23 @@ const StyledSocialList = styled.ul`
   }
 `;
 
-const Social = ({ isHome }) => (
-  <Side isHome={isHome} orientation="left">
-    <StyledSocialList>
-      {socialMedia &&
-        socialMedia.map(({ url, name }, i) => (
-          <li key={i}>
-            <a href={url} aria-label={name} target="_blank" rel="noreferrer">
-              <Icon name={name} />
-            </a>
-          </li>
-        ))}
-    </StyledSocialList>
-  </Side>
-)
-Social.propTypes = {
+
+
+const Background = ({ isHome }) => {
+    console.log("Backgrsound");
+    
+    return (
+       <h1>Hello world</h1>
+
+    )
+}
+    
+
+
+Background.propTypes = {
   isHome: PropTypes.bool,
 };
 
-export default Social;
+export default Background;
+
+

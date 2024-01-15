@@ -22,13 +22,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--lightest-navy);
+    background-color: var(--lightest-grey);
     color: var(--lightest-slate);
   }
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--orange);
     outline-offset: 3px;
   }
 
@@ -47,24 +47,24 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--orange);
     outline-offset: 3px;
   }
 
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: var(--dark-slate) var(--grey);
   }
   ::-webkit-scrollbar {
     width: 12px;
   }
   ::-webkit-scrollbar-track {
-    background: var(--navy);
+    background: var(--grey);
   }
   ::-webkit-scrollbar-thumb {
     background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
+    border: 3px solid var(--grey);
     border-radius: 10px;
   }
 
@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: var(--grey);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -195,7 +195,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--orange);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -214,7 +214,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: var(--lightest-grey);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -262,7 +262,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--orange);
     }
 
     &.inline-link {
@@ -304,7 +304,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: var(--light-navy);
+      background-color: var(--light-grey);
       color: var(--white);
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);
@@ -326,14 +326,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--orange);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--orange);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -347,7 +347,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: var(--lightest-navy);
+    background-color: var(--lightest-grey);
     height: 1px;
     border-width: 0px;
     border-style: initial;
@@ -373,8 +373,8 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: var(--green);
-      color: var(--navy);
+      background-color: var(--orange);
+      color: var(--grey);
       top: 0;
       left: 0;
       width: auto;
@@ -387,18 +387,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--orange);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--orange);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -421,7 +421,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--green);
+    color: var(--orange);
 
     .arrow {
       display: block;

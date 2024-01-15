@@ -71,9 +71,9 @@ const StyledExperienceType = styled.span`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background-color: var(--green);
+  background-color: var(--orange);
   font-size: 12px;
-  color: var(--dark-navy);
+  color: var(--dark-grey);
   margin-left: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -90,9 +90,9 @@ const StyledTabButton = styled.button`
   width: 100%;
   height: var(--tab-height);
   padding: 0 20px 2px;
-  border-left: 2px solid var(--lightest-navy);
+  border-left: 2px solid var(--lightest-grey);
   background-color: transparent;
-  color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
+  color: ${({ isActive }) => (isActive ? 'var(--orange)' : 'var(--slate)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   text-align: left;
@@ -106,13 +106,13 @@ const StyledTabButton = styled.button`
     min-width: 120px;
     padding: 0 15px;
     border-left: 0;
-    border-bottom: 2px solid var(--lightest-navy);
+    border-bottom: 2px solid var(--lightest-grey);
     text-align: center;
   }
 
   &:hover,
   &:focus {
-    background-color: var(--light-navy);
+    background-color: var(--light-grey);
   }
 `;
 
@@ -124,7 +124,7 @@ const StyledHighlight = styled.div`
   width: 2px;
   height: var(--tab-height);
   border-radius: var(--border-radius);
-  background: var(--green);
+  background: var(--orange);
   transform: translateY(calc(${({ activeTabId }) => activeTabId} * var(--tab-height)));
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
@@ -132,11 +132,11 @@ const StyledHighlight = styled.div`
   @media (max-width: 600px) {
     top: auto;
     bottom: 0;
-    width: 100%;
+    width: 120px;
     max-width: var(--tab-width);
     height: 2px;
     margin-left: 50px;
-    transform: translateX(calc(${({ activeTabId }) => activeTabId} * var(--tab-width)));
+    transform: translateX(calc(${({ activeTabId }) => activeTabId} * 120px));
   }
   @media (max-width: 480px) {
     margin-left: 25px;
@@ -169,7 +169,7 @@ const StyledTabPanel = styled.div`
     line-height: 1.3;
 
     .company {
-      color: var(--green);
+      color: var(--orange);
     }
   }
 
@@ -264,7 +264,7 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="work" ref={revealContainer}>
-      <h2 className="numbered-heading">Professional & Volunteer Experience</h2>
+      <h2 className="numbered-heading">Work & Volunteer Experience</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>

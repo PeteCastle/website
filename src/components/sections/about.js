@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--orange);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--orange);
 
     &:hover,
     &:focus {
@@ -100,12 +100,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--dark-navy);
+      background-color: var(--dark-grey);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--orange);
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -154,7 +154,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/petecastle_full.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -72,7 +72,7 @@ const StyledCredit = styled.div`
   }
 
   svg {
-    color: var(--green);
+    color: var(--orange);
     width: 200px;
   }
 `;

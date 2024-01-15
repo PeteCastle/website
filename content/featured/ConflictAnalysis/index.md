@@ -3,6 +3,7 @@ date: '3'
 title: 'Global Conflict Analysis'
 cover: './conflict-analysis.png'
 github: 'https://github.com/PeteCastle/World-Conflict-Analysis'
+external: 'https://github.com/PeteCastle/World-Conflict-Analysis'
 tech:
   - PowerQuery
   - PowerBI

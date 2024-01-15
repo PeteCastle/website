@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import styled, { ThemeProvider } from 'styled-components';
 
-import {Loader, Header, Nav, Social, Email, Footer} from '@components';
+import {Loader, Header, Nav, Social, Email, Footer, Background} from '@components';
 import {GlobalStyle, theme } from '@styles';
 
 const StyledContent = styled.div`
@@ -27,9 +27,11 @@ export default function Layout({children, location}) {
               <Loader finishLoading={() => setIsLoading(false)} />
             ) : (
               <StyledContent>
+                {/* <Background isHome={isHome} /> */}
                 <Nav isHome={isHome} />
                  <Social isHome={isHome} />
                 <Email isHome={isHome} />
+                
 
                 <div id="content">
                   {children}
